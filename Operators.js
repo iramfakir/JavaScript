@@ -10,6 +10,10 @@ console.log('Increment:',++a);
 console.log('Decrement:',--b);
 console.log('Exponentiation:',a**b);
  
+//Task1
+console.log('(a+b)^2=',(a+b)^2);
+//Task2
+console.log('a*b+a-b/a^2=',a*b-a-b/a^2);
 
 //Assignment Operators
 let c=5;
@@ -89,7 +93,8 @@ console.log('name' in p);
 console.log('7' in p);
 
 
+//Task1
+console.log('Calcuted:',(a+b*f>30) && (c^2*20/10<=100));
 
-
-
-
+//Task2
+console.log('Calculated:',(c*5) || (i/5) == 10 );
